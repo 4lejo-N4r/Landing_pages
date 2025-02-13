@@ -1,4 +1,15 @@
 :root{
     --color-1: #09212C;
     --color-2: #043E49;
+    --color-3: #63E1E1;
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(/sotrage/fonts/avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "roman";
+    src: url(/sotrage/fonts/avenir/AvenirLTStd-Roman.otf
 }
