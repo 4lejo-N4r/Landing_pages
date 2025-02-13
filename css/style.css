@@ -1,0 +1,73 @@
+@import url(/css/varialbles.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(240, 0%, 54%);
+    background-color: hsl(202, 4%, 64%) ;
+}
+.div_menu{
+    margin-top: 65px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 60%;
+    height: 380px;
+}
+.div_menu h1{
+    color: #363830;
+    font-family: "heavy";
+    font-size: 80px;
+    font-weight: 1000;
+}
+.div_menu p{
+    color: #363830;
+    font-family: "heavy2";
+    font-size: 20px;
+}
+.div_menu button{
+    font-family: "heavy2";
+    font-size: 20px;
+    color: white;
+    background-color: #363830;
+    width: 160px;
+    height: 55px;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+.div_img1{
+    z-index: -1;
+    left: 700px;
+    top: 0px;
+    display: flex;
+    position: absolute;
+}
+.div_img{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    margin-left: 60px;
+}
+.div_cuadro{
+    padding: 20px;
+    align-items: center;
+    height: 250px;
+    top: 75%;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-left: 400px;
+    gap: 15px;
+    width: 850px;
+    border-radius: 120px;
+    background-color: rgba(212, 208, 208, 0.459); 
+    backdrop-filter: blur(15px);
+}
+.div_cuadro img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
