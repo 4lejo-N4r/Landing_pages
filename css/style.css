@@ -21,9 +21,10 @@
 .div_menu button{
     background-color: #FFDE81;
     font-size: 18px;
-    width: 30%;
-    height: 60px;
-    border-radius: 30px;
+    width: 40%;
+    height: 75px;
+    border-radius: 60px;
+    border: none;
 }
 .div_img{
     display: flex;
@@ -32,6 +33,33 @@
     left: 600px;
 }
 .caja{
-    width: 40%;
-    background-color: brown;
+    color: white;
+    background-color: #49342f;
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    padding: 30px;
+    left: 50px;
+    gap: 50px;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-bottom: 50px;    
+}
+.caja h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    font-size: 25px;
+    /* background-color: aqua; */
+}
+.caja p{
+    padding-left: 40px;
+    font-size: 18px;
+}
+.caja img{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
