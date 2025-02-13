@@ -1,0 +1,36 @@
+@import url('/css/varialbles.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cloud {
+    background-color: var(--color-9);
+    display: flex;
+    position: absolute;
+    he
+    top: 900px;
+    left: 200px; 
+}
+
+.img1 img{
+    position: absolute;
+    top: 70px;
+    left: 760px;
+    display: flex;
+    width: 22%;
+    height: auto;
+
+}
+
+.img2 img{
+    position: absolute;
+    top: 200px;
+    left: 960px;
+    display: flex;
+    width: 22%;
+    height: auto;
+
+}
