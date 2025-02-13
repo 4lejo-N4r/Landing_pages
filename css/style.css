@@ -6,7 +6,7 @@
 }
 
 body{   
-    background-color: #043d49;
+    background-color: #022e36;
 }
 body img{
     z-index: -1;
@@ -16,6 +16,8 @@ body img{
     left: 22%;
 }
 .div_menu{
+    color: var(--color-4);
+    backdrop-filter: blur(4px);
     border-radius: 15px;
     position: absolute;
     left: 30px;
@@ -25,14 +27,13 @@ body img{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: blue;
     width: 50%;
     margin-top: 200px;
 }
 
 .div_menu h1{
     width: 85%;
-    background-color: green;
+
     font-size: 65px;
     font-family: "heavy";
 }
@@ -40,7 +41,7 @@ body img{
 .div_menu p{
     line-height: 30px;
     width: 70%;
-    background-color: red;
+
     font-size: 23px;
     font-family: "roman";
 }
