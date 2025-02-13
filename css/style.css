@@ -1,8 +1,15 @@
+@import url(/css/varialbles.css);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    
 }
+
+
+
 .div_menu{
     margin-left: 50px;
     margin-top: 180px;
@@ -12,11 +19,14 @@
 }
 .div_menu h1{
     font-size: 70px;
+    font-family: "heavy";
 }
 .div_menu p{
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "heavy";
+
 }
 .div_menu button{
     background-color: #FFDE81;
@@ -25,6 +35,7 @@
     height: 75px;
     border-radius: 60px;
     border: none;
+    font-family: "heavy";
 }
 .div_img{
     display: flex;
@@ -51,12 +62,15 @@
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 40px;
-    font-size: 25px;
+    font-size: 22px;
+    font-family: "heavy";
+
     /* background-color: aqua; */
 }
 .caja p{
+    font-family: "heavy";
     padding-left: 40px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .caja img{
     padding-left: 40px;
